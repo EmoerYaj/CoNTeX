@@ -22,6 +22,7 @@
         <button id="redo-button" class="nb-btn" type="button">
           <img class="nb-tl-svg" src="images/rotate-right-solid.svg" alt="redo">
         </button>
+        <a href = 'logout.php'>Logout</a>";
       </div>
 
       <div class="navbar-logo">
