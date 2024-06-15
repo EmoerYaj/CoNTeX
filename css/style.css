@@ -159,3 +159,44 @@ body {
         overflow-x: hidden;
     }
 }
+
+
+/*Log In Steup CSS*/
+
+table{
+    background: #ffff;
+    color: black;
+    width: 50%; /* Make the table take up the full width available */
+    border-collapse: collapse; /* Remove cell spacing */
+    border-radius: 30px; /* Add rounded corners */
+    box-shadow: 10px 10px 10px rgba(12, 10, 10, 0.5);
+    align-items: center;
+  }
+  
+  th, td {
+    padding: 10px; /* Add padding to cells for visual spacing */
+    /*text-align: center; /* Optional: Center text within cells */
+    width: 50%;
+    /*text-align: left;*/
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 100%; /* Make input fields take up full width */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    margin-bottom: 10px; /* Add spacing between input fields */
+    
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    width: 50%;
+  }
